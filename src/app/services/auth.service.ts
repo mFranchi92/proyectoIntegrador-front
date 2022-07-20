@@ -13,7 +13,7 @@ export class AuthService {
 
   constructor(private httpClient: HttpClient) { }
 
-  public  new(newUser: NewUser): Observable<any>{
+  public new(newUser: NewUser): Observable<any>{
     return this.httpClient.post<any>(this.authURL + 'new', newUser);
   }
 
