@@ -7,11 +7,10 @@ div {
 @media(min-width: 576px){
     #profilepic{
         position: absolute;
-        width: 15%;
+        width: 12%;
         border-radius: 100%;
-        box-shadow: 3px 3px 3px grey;
-        left: 3%;
-        top: 550px;
+        left: 5%;
+        top: 480px;
     }
 }
 @media(max-width: 575px){
@@ -19,7 +18,6 @@ div {
         position: absolute;
         width: 30%;
         border-radius: 100%;
-        box-shadow: 3px 3px 3px grey;
         left: 33%;
         top: 650px;
     }
