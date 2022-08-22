@@ -7,7 +7,7 @@ import { HardNSoft } from '../model/hardnsoft';
   providedIn: 'root'
 })
 export class SHardNSoftService {
-  URL= 'http://localhost:8080/hardnsoft/';
+  URL= 'https://apbackproj.herokuapp.com/hardnsoft/';
   constructor(private httpClient: HttpClient) { }
 
   public lista(): Observable<HardNSoft[]> {
